@@ -28,15 +28,15 @@
     "url": "https://coreapi.azurewebsites.net/health",
     "slug": "core-api-health",
     "status": "down",
-    "uptime": "0.03%",
+    "uptime": "0.04%",
     "time": 2013
   },
   {
     "name": "Core ELP API Health",
     "url": "http://elpapi.azurewebsites.net/health",
     "slug": "core-elp-api-health",
-    "status": "down",
-    "uptime": "99.96%",
-    "time": 99
+    "status": "up",
+    "uptime": "100.00%",
+    "time": 107
   }
 ]
