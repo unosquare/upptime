@@ -5,7 +5,7 @@
     "slug": "client-core",
     "status": "up",
     "uptime": "100.00%",
-    "time": 155
+    "time": 160
   },
   {
     "name": "TimeCore",
@@ -13,7 +13,7 @@
     "slug": "time-core",
     "status": "up",
     "uptime": "100.00%",
-    "time": 425
+    "time": 440
   },
   {
     "name": "Exec Reports",
@@ -21,22 +21,22 @@
     "slug": "exec-reports",
     "status": "up",
     "uptime": "100.00%",
-    "time": 184
+    "time": 157
   },
   {
     "name": "Core API Health",
     "url": "https://coreapi.azurewebsites.net/health",
     "slug": "core-api-health",
     "status": "down",
-    "uptime": "43.03%",
-    "time": 3601
+    "uptime": "0.03%",
+    "time": 2013
   },
   {
     "name": "Core ELP API Health",
     "url": "http://elpapi.azurewebsites.net/health",
     "slug": "core-elp-api-health",
-    "status": "up",
-    "uptime": "100.00%",
-    "time": 183
+    "status": "down",
+    "uptime": "99.96%",
+    "time": 99
   }
 ]
