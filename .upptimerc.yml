@@ -1,17 +1,18 @@
-# Change these first
-owner: upptime # Your GitHub username
+owner: unosquare # Your GitHub username
 repo: upptime # Your Github repository name
 
 # Add your sites here
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Broken Site
-    url: https://thissitedoesnotexist.com
+  - name: ClientCore
+    url: http://clientcore.unosquare.com/
+  - name: TimeCore
+    url: https://timecore.unosquare.com/
+  - name: Exec Reports
+    url: http://reports.unosquare.com/
+  - name: Core API Health
+    url: https://coreapi.azurewebsites.net/health
+  - name: Core ELP API Health
+    url: http://elpapi.azurewebsites.net/health
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
@@ -20,13 +21,8 @@ status-website:
   baseUrl: /upptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Unosquare Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [Github repository](https://github.com/koj-co/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/koj-co/upptime)
+  introTitle: "Unosquare Website and APIs status page."
+  introMessage: You can report issues to Production Support.
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
