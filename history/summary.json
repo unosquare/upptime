@@ -1,34 +1,42 @@
 [
   {
-    "name": "Google",
-    "url": "https://www.google.com",
-    "slug": "google",
+    "name": "ClientCore",
+    "url": "http://clientcore.unosquare.com/",
+    "slug": "client-core",
     "status": "up",
     "uptime": "100.00%",
-    "time": 31
+    "time": 155
   },
   {
-    "name": "Wikipedia",
-    "url": "https://en.wikipedia.org",
-    "slug": "wikipedia",
+    "name": "TimeCore",
+    "url": "https://timecore.unosquare.com/",
+    "slug": "time-core",
     "status": "up",
     "uptime": "100.00%",
-    "time": 66
+    "time": 425
   },
   {
-    "name": "Hacker News",
-    "url": "https://news.ycombinator.com",
-    "slug": "hacker-news",
+    "name": "Exec Reports",
+    "url": "http://reports.unosquare.com/",
+    "slug": "exec-reports",
     "status": "up",
     "uptime": "100.00%",
-    "time": 208
+    "time": 184
   },
   {
-    "name": "Broken Site",
-    "url": "https://thissitedoesnotexist.com",
-    "slug": "broken-site",
+    "name": "Core API Health",
+    "url": "https://coreapi.azurewebsites.net/health",
+    "slug": "core-api-health",
     "status": "down",
+    "uptime": "43.03%",
+    "time": 3601
+  },
+  {
+    "name": "Core ELP API Health",
+    "url": "http://elpapi.azurewebsites.net/health",
+    "slug": "core-elp-api-health",
+    "status": "up",
     "uptime": "100.00%",
-    "time": 0
+    "time": 183
   }
 ]
