@@ -10,7 +10,7 @@ sites:
   - name: Exec Reports
     url: http://reports.unosquare.com/
   - name: Core API Health
-    url: https://coreapi.azurewebsites.net/health
+    url: https://unocoreapi.azurewebsites.net
   - name: Core ELP API Health
     url: https://elpapi.azurewebsites.net/health
   - name: Core Client API Health
