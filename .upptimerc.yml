@@ -34,3 +34,6 @@ status-website:
   navbar:
     - title: Status
       href: /
+    
+workflowSchedule:
+  uptime: "*/15 * * * *"
