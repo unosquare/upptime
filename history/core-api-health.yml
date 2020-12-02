@@ -1,7 +1,7 @@
-url: https://unocoreapi.azurewebsites.net  
-status: down
-code: 404
-responseTime: 225
-lastUpdated: 2020-12-02T21:36:00.400Z
+url: https://unocoreapi.azurewebsites.net/health  
+status: up
+code: 200
+responseTime: 1216
+lastUpdated: 2020-12-02T21:40:03.305Z
 startTime: Tue Dec 01 2020 19:36:43 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
