@@ -5,7 +5,7 @@
     "slug": "client-core",
     "status": "up",
     "uptime": "100.00%",
-    "time": 150
+    "time": 159
   },
   {
     "name": "TimeCore",
@@ -13,7 +13,7 @@
     "slug": "time-core",
     "status": "up",
     "uptime": "100.00%",
-    "time": 428
+    "time": 443
   },
   {
     "name": "Exec Reports",
@@ -28,8 +28,8 @@
     "url": "https://coreapi.azurewebsites.net/health",
     "slug": "core-api-health",
     "status": "down",
-    "uptime": "65.95%",
-    "time": 1478
+    "uptime": "67.79%",
+    "time": 1209
   },
   {
     "name": "Core ELP API Health",
@@ -37,7 +37,15 @@
     "slug": "core-elp-api-health",
     "status": "up",
     "uptime": "100.00%",
-    "time": 710
+    "time": 669
+  },
+  {
+    "name": "Core Client API Health",
+    "url": "https://clietcore.azurewebsites.net/health",
+    "slug": "core-client-api-health",
+    "status": "up",
+    "uptime": "100.00%",
+    "time": 178
   },
   {
     "name": "Core API Staging Health",
@@ -45,14 +53,22 @@
     "slug": "core-api-staging-health",
     "status": "up",
     "uptime": "100.00%",
-    "time": 273
+    "time": 227
   },
   {
-    "name": "Core ELP API Health",
+    "name": "Core ELP API Staging Health",
     "url": "https://elpstaging.azurewebsites.net/health",
-    "slug": "core-elp-api-health",
+    "slug": "core-elp-api-staging-health",
     "status": "up",
     "uptime": "100.00%",
-    "time": 710
+    "time": 149
+  },
+  {
+    "name": "Core Client API Staging Health",
+    "url": "https://clientstaging.azurewebsites.net/health",
+    "slug": "core-client-api-staging-health",
+    "status": "up",
+    "uptime": "100.00%",
+    "time": 202
   }
 ]
