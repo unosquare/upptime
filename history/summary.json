@@ -28,7 +28,7 @@
     "url": "https://coreapi.azurewebsites.net/health",
     "slug": "core-api-health",
     "status": "down",
-    "uptime": "60.36%",
+    "uptime": "65.95%",
     "time": 1478
   },
   {
@@ -37,7 +37,7 @@
     "slug": "core-elp-api-health",
     "status": "up",
     "uptime": "100.00%",
-    "time": 838
+    "time": 710
   },
   {
     "name": "Core API Staging Health",
@@ -53,6 +53,6 @@
     "slug": "core-elp-api-health",
     "status": "up",
     "uptime": "100.00%",
-    "time": 838
+    "time": 710
   }
 ]
