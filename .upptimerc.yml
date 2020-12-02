@@ -9,8 +9,10 @@ sites:
     url: https://timecore.unosquare.com/
   - name: Exec Reports
     url: http://reports.unosquare.com/
+  - name: Interviews
+    url: https://interviews.unosquare.com/
   - name: Core API Health
-    url: https://unocoreapi.azurewebsites.net
+    url: https://unocoreapi.azurewebsites.net/health
   - name: Core ELP API Health
     url: https://elpapi.azurewebsites.net/health
   - name: Core Client API Health
