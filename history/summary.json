@@ -5,7 +5,15 @@
     "slug": "client-core",
     "status": "up",
     "uptime": "100.00%",
-    "time": 159
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 162,
+    "timeDay": 164,
+    "timeWeek": 162,
+    "timeMonth": 162,
+    "timeYear": 162
   },
   {
     "name": "TimeCore",
@@ -13,7 +21,15 @@
     "slug": "time-core",
     "status": "up",
     "uptime": "100.00%",
-    "time": 443
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 449,
+    "timeDay": 455,
+    "timeWeek": 449,
+    "timeMonth": 449,
+    "timeYear": 449
   },
   {
     "name": "Exec Reports",
@@ -21,15 +37,31 @@
     "slug": "exec-reports",
     "status": "up",
     "uptime": "100.00%",
-    "time": 145
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 143,
+    "timeDay": 133,
+    "timeWeek": 143,
+    "timeMonth": 143,
+    "timeYear": 143
   },
   {
     "name": "Core API Health",
-    "url": "https://coreapi.azurewebsites.net/health",
+    "url": "https://unocoreapi.azurewebsites.net",
     "slug": "core-api-health",
     "status": "down",
-    "uptime": "67.80%",
-    "time": 1209
+    "uptime": "69.41%",
+    "uptimeDay": "75.08%",
+    "uptimeWeek": "69.41%",
+    "uptimeMonth": "69.41%",
+    "uptimeYear": "69.41%",
+    "time": 1012,
+    "timeDay": 365,
+    "timeWeek": 1012,
+    "timeMonth": 1012,
+    "timeYear": 1012
   },
   {
     "name": "Core ELP API Health",
@@ -37,7 +69,15 @@
     "slug": "core-elp-api-health",
     "status": "up",
     "uptime": "100.00%",
-    "time": 669
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 806,
+    "timeDay": 869,
+    "timeWeek": 806,
+    "timeMonth": 806,
+    "timeYear": 806
   },
   {
     "name": "Core Client API Health",
@@ -45,7 +85,15 @@
     "slug": "core-client-api-health",
     "status": "up",
     "uptime": "100.00%",
-    "time": 178
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 192,
+    "timeDay": 192,
+    "timeWeek": 192,
+    "timeMonth": 192,
+    "timeYear": 192
   },
   {
     "name": "Core API Staging Health",
@@ -53,7 +101,15 @@
     "slug": "core-api-staging-health",
     "status": "up",
     "uptime": "100.00%",
-    "time": 227
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 208,
+    "timeDay": 208,
+    "timeWeek": 208,
+    "timeMonth": 208,
+    "timeYear": 208
   },
   {
     "name": "Core ELP API Staging Health",
@@ -61,7 +117,15 @@
     "slug": "core-elp-api-staging-health",
     "status": "up",
     "uptime": "100.00%",
-    "time": 149
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 164,
+    "timeDay": 164,
+    "timeWeek": 164,
+    "timeMonth": 164,
+    "timeYear": 164
   },
   {
     "name": "Core Client API Staging Health",
@@ -69,6 +133,14 @@
     "slug": "core-client-api-staging-health",
     "status": "up",
     "uptime": "100.00%",
-    "time": 202
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 181,
+    "timeDay": 181,
+    "timeWeek": 181,
+    "timeMonth": 181,
+    "timeYear": 181
   }
 ]
