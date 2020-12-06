@@ -9,11 +9,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 160,
-    "timeDay": 195,
-    "timeWeek": 160,
-    "timeMonth": 160,
-    "timeYear": 160
+    "time": 166,
+    "timeDay": 220,
+    "timeWeek": 166,
+    "timeMonth": 166,
+    "timeYear": 166
   },
   {
     "name": "TimeCore",
@@ -25,11 +25,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 915,
-    "timeDay": 5200,
-    "timeWeek": 915,
-    "timeMonth": 915,
-    "timeYear": 915
+    "time": 866,
+    "timeDay": 383,
+    "timeWeek": 866,
+    "timeMonth": 866,
+    "timeYear": 866
   },
   {
     "name": "Exec Reports",
@@ -41,11 +41,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 133,
-    "timeDay": 117,
-    "timeWeek": 133,
-    "timeMonth": 133,
-    "timeYear": 133
+    "time": 129,
+    "timeDay": 91,
+    "timeWeek": 129,
+    "timeMonth": 129,
+    "timeYear": 129
   },
   {
     "name": "Interviews",
@@ -57,43 +57,43 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 307,
-    "timeDay": 86,
-    "timeWeek": 307,
-    "timeMonth": 307,
-    "timeYear": 307
+    "time": 265,
+    "timeDay": 96,
+    "timeWeek": 265,
+    "timeMonth": 265,
+    "timeYear": 265
   },
   {
     "name": "Core API Health",
     "url": "https://unocoreapi.azurewebsites.net/health",
     "slug": "core-api-health",
     "status": "up",
-    "uptime": "88.71%",
+    "uptime": "91.39%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "88.71%",
-    "uptimeMonth": "88.71%",
-    "uptimeYear": "88.71%",
-    "time": 666,
-    "timeDay": 185,
-    "timeWeek": 666,
-    "timeMonth": 666,
-    "timeYear": 666
+    "uptimeWeek": "91.39%",
+    "uptimeMonth": "91.39%",
+    "uptimeYear": "91.39%",
+    "time": 626,
+    "timeDay": 192,
+    "timeWeek": 626,
+    "timeMonth": 626,
+    "timeYear": 626
   },
   {
     "name": "Core ELP API Health",
     "url": "https://elpapi.azurewebsites.net/health",
     "slug": "core-elp-api-health",
     "status": "up",
-    "uptime": "99.04%",
+    "uptime": "99.27%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.04%",
-    "uptimeMonth": "99.04%",
-    "uptimeYear": "99.04%",
-    "time": 589,
-    "timeDay": 195,
-    "timeWeek": 589,
-    "timeMonth": 589,
-    "timeYear": 589
+    "uptimeWeek": "99.27%",
+    "uptimeMonth": "99.27%",
+    "uptimeYear": "99.27%",
+    "time": 566,
+    "timeDay": 177,
+    "timeWeek": 566,
+    "timeMonth": 566,
+    "timeYear": 566
   },
   {
     "name": "Core Client API Health",
@@ -105,11 +105,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 297,
-    "timeDay": 195,
-    "timeWeek": 297,
-    "timeMonth": 297,
-    "timeYear": 297
+    "time": 282,
+    "timeDay": 158,
+    "timeWeek": 282,
+    "timeMonth": 282,
+    "timeYear": 282
   },
   {
     "name": "Core API Staging Health",
@@ -121,11 +121,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 196,
-    "timeDay": 195,
-    "timeWeek": 196,
-    "timeMonth": 196,
-    "timeYear": 196
+    "time": 191,
+    "timeDay": 149,
+    "timeWeek": 191,
+    "timeMonth": 191,
+    "timeYear": 191
   },
   {
     "name": "Core ELP API Staging Health",
@@ -138,7 +138,7 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 168,
-    "timeDay": 174,
+    "timeDay": 165,
     "timeWeek": 168,
     "timeMonth": 168,
     "timeYear": 168
@@ -153,10 +153,10 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 167,
-    "timeDay": 154,
-    "timeWeek": 167,
-    "timeMonth": 167,
-    "timeYear": 167
+    "time": 163,
+    "timeDay": 138,
+    "timeWeek": 163,
+    "timeMonth": 163,
+    "timeYear": 163
   }
 ]
