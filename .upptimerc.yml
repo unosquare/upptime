@@ -23,6 +23,8 @@ sites:
     url: https://elpstaging.azurewebsites.net/health
   - name: Core Client API Staging Health
     url: https://clientstaging.azurewebsites.net/health
+  - name: Core AI API Staging Health
+    url: https://coreaistaging.azurewebsites.net/health
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
