@@ -17,6 +17,10 @@ sites:
     url: https://elpapi.azurewebsites.net/health
   - name: Core Client API Health
     url: https://clietcore.azurewebsites.net/health
+  - name: Core Exec API Health
+    url: https://execapi.azurewebsites.net/health
+  - name: Core AI API Health
+    url: https://coreai.azurewebsites.net/health
   - name: Core API Staging Health
     url: https://unocoreapistaging.azurewebsites.net/health
   - name: Core ELP API Staging Health
