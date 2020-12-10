@@ -16,11 +16,13 @@ sites:
   - name: Core ELP API Health
     url: https://elpapi.azurewebsites.net/health
   - name: Core Client API Health
-    url: https://clietcore.azurewebsites.net/health
+    url: https://clientcore.azurewebsites.net/health
   - name: Core Exec API Health
     url: https://execapi.azurewebsites.net/health
   - name: Core AI API Health
     url: https://coreai.azurewebsites.net/health
+  - name: Core SharePoint Reporting API Health
+    url: https://ssrapi.azurewebsites.net/health
   - name: Core API Staging Health
     url: https://unocoreapistaging.azurewebsites.net/health
   - name: Core ELP API Staging Health
@@ -29,6 +31,8 @@ sites:
     url: https://clientstaging.azurewebsites.net/health
   - name: Core AI API Staging Health
     url: https://coreaistaging.azurewebsites.net/health
+  - name: Core SharePoint Reporting API Staging Health
+    url: https://srrstaging.azurewebsites.net/health
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
