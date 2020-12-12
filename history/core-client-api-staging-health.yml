@@ -1,7 +1,7 @@
 url: https://clientstaging.azurewebsites.net/health  
 status: up
 code: 200
-responseTime: 978
-lastUpdated: 2020-12-11T23:10:17.702Z
+responseTime: 149
+lastUpdated: 2020-12-12T23:09:59.725Z
 startTime: Wed Dec 02 2020 20:16:14 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
