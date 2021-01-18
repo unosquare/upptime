@@ -1,7 +1,7 @@
 url: https://execapi.azurewebsites.net/health
 status: up
 code: 200
-responseTime: 330
-lastUpdated: 2021-01-17T23:34:33.158Z
+responseTime: 301
+lastUpdated: 2021-01-18T23:38:27.115Z
 startTime: Tue Dec 08 2020 16:28:23 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
