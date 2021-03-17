@@ -1,7 +1,7 @@
 url: https://ssrapi.azurewebsites.net/health
 status: down
 code: 503
-responseTime: 4897
-lastUpdated: 2021-03-16T23:10:25.168Z
+responseTime: 309
+lastUpdated: 2021-03-17T23:10:30.727Z
 startTime: Thu Dec 10 2020 19:26:22 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
