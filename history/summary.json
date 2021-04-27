@@ -22,19 +22,19 @@
     "url": "https://timecore.unosquare.com/",
     "icon": "https://favicons.githubusercontent.com/timecore.unosquare.com",
     "slug": "time-core",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 464,
-    "timeDay": 421,
-    "timeWeek": 381,
-    "timeMonth": 456,
-    "timeYear": 464,
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "98.92%",
+    "uptimeWeek": "99.85%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.99%",
+    "time": 468,
+    "timeDay": 655,
+    "timeWeek": 464,
+    "timeMonth": 476,
+    "timeYear": 468,
     "dailyMinutesDown": {
-      "2021-04-27": 0
+      "2021-04-27": 16
     }
   },
   {
@@ -204,7 +204,7 @@
     "timeMonth": 264,
     "timeYear": 870,
     "dailyMinutesDown": {
-      "2021-04-27": 1093,
+      "2021-04-27": 1109,
       "2021-04-26": 1440,
       "2021-04-25": 1440,
       "2021-04-24": 1440,
