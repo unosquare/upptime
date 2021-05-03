@@ -1,7 +1,7 @@
 url: https://srrstaging.azurewebsites.net/health
-status: down
-code: 503
-responseTime: 918
-lastUpdated: 2021-05-03T16:04:22.386Z
+status: up
+code: 200
+responseTime: 246
+lastUpdated: 2021-05-03T16:45:55.490Z
 startTime: Thu Dec 10 2020 19:26:25 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
