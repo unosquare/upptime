@@ -44,19 +44,19 @@
     "url": "http://reports.unosquare.com/",
     "icon": "https://favicons.githubusercontent.com/reports.unosquare.com",
     "slug": "exec-reports",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "97.46%",
-    "uptimeWeek": "99.64%",
-    "uptimeMonth": "99.92%",
-    "uptimeYear": "99.99%",
+    "status": "up",
+    "uptime": "99.98%",
+    "uptimeDay": "96.57%",
+    "uptimeWeek": "99.51%",
+    "uptimeMonth": "99.89%",
+    "uptimeYear": "99.98%",
     "time": 161,
-    "timeDay": 148,
-    "timeWeek": 172,
-    "timeMonth": 176,
+    "timeDay": 141,
+    "timeWeek": 167,
+    "timeMonth": 174,
     "timeYear": 161,
     "dailyMinutesDown": {
-      "2021-06-08": 37
+      "2021-06-08": 49
     }
   },
   {
@@ -202,7 +202,7 @@
     "uptime": "28.19%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "55.48%",
+    "uptimeMonth": "55.51%",
     "uptimeYear": "28.19%",
     "time": 733,
     "timeDay": 315,
