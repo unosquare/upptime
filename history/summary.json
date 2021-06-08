@@ -4,19 +4,19 @@
     "url": "http://clientcore.unosquare.com/",
     "icon": "https://favicons.githubusercontent.com/clientcore.unosquare.com",
     "slug": "client-core",
-    "status": "down",
+    "status": "up",
     "uptime": "99.99%",
-    "uptimeDay": "98.60%",
-    "uptimeWeek": "99.80%",
-    "uptimeMonth": "99.95%",
+    "uptimeDay": "97.47%",
+    "uptimeWeek": "99.64%",
+    "uptimeMonth": "99.92%",
     "uptimeYear": "99.99%",
-    "time": 179,
-    "timeDay": 147,
-    "timeWeek": 178,
-    "timeMonth": 186,
-    "timeYear": 179,
+    "time": 181,
+    "timeDay": 284,
+    "timeWeek": 221,
+    "timeMonth": 198,
+    "timeYear": 181,
     "dailyMinutesDown": {
-      "2021-06-08": 20
+      "2021-06-08": 36
     }
   },
   {
@@ -46,9 +46,9 @@
     "slug": "exec-reports",
     "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "98.60%",
-    "uptimeWeek": "99.80%",
-    "uptimeMonth": "99.95%",
+    "uptimeDay": "97.46%",
+    "uptimeWeek": "99.64%",
+    "uptimeMonth": "99.92%",
     "uptimeYear": "99.99%",
     "time": 161,
     "timeDay": 148,
@@ -56,7 +56,7 @@
     "timeMonth": 176,
     "timeYear": 161,
     "dailyMinutesDown": {
-      "2021-06-08": 20
+      "2021-06-08": 37
     }
   },
   {
@@ -64,19 +64,19 @@
     "url": "https://interviews.unosquare.com/",
     "icon": "https://favicons.githubusercontent.com/interviews.unosquare.com",
     "slug": "interviews",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 137,
-    "timeDay": 115,
-    "timeWeek": 136,
-    "timeMonth": 131,
-    "timeYear": 137,
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "98.86%",
+    "uptimeWeek": "99.84%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.99%",
+    "time": 138,
+    "timeDay": 152,
+    "timeWeek": 149,
+    "timeMonth": 135,
+    "timeYear": 138,
     "dailyMinutesDown": {
-      "2021-06-08": 0
+      "2021-06-08": 16
     }
   },
   {
@@ -199,11 +199,11 @@
     "icon": "https://favicons.githubusercontent.com/ssrapi.azurewebsites.net",
     "slug": "core-share-point-reporting-api-health",
     "status": "up",
-    "uptime": "28.18%",
+    "uptime": "28.19%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "55.44%",
-    "uptimeYear": "28.18%",
+    "uptimeMonth": "55.48%",
+    "uptimeYear": "28.19%",
     "time": 733,
     "timeDay": 315,
     "timeWeek": 270,
