@@ -1,0 +1,35 @@
+owner: unosquare
+repo: upptime
+
+sites:
+  - name: Core
+    url: $CORE_API_PATH
+  - name: ELP
+    url: $ELP_API_PATH
+  - name: Forms
+    url: $FORMS_API_PATH
+  - name: AI
+    url: $AI_API_PATH
+  - name: Workflow
+    url: $WORKFLOW_API_PATH
+  - name: Auth
+    url: $AUTH_API_PATH
+  - name: Reports
+    url: $REPORTS_API_PATH
+  - name: Billing
+    url: $BILLING_API_PATH
+  
+assignees: # Users to assign downtime issues (optional)
+  - jpalcala
+  - clementezazueta
+status-website:
+  publish: true
+  theme: ocean
+  logoUrl: https://cdn.unosquare.com/assets/unosquare_whitelogo.svg
+  cname: status.unosquare.com # Custom domain CNAME
+  name: Status
+  navbar:
+    - title: Status
+      href: /
+workflowSchedule:
+  uptime: "*/10 8-20 * * 1-5"
