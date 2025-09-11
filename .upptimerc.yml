@@ -32,5 +32,7 @@ status-website:
   navbar:
     - title: Status
       href: /
+    - title: Report an issue
+      href: https://unosquare.atlassian.net/servicedesk/customer/portal/2/create/19
 workflowSchedule:
   uptime: "*/10 8-20 * * 1-5"
