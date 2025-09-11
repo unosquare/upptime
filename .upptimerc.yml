@@ -6,6 +6,8 @@ sites:
     url: $CORE_API_PATH
   - name: ELP
     url: $ELP_API_PATH
+  - name: Vacations
+    url: $VACATIONS_API_PATH
   - name: Forms
     url: $FORMS_API_PATH
   - name: AI
