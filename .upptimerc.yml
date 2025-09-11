@@ -26,9 +26,9 @@ status-website:
   publish: true
   theme: ocean
   faviconSvg: https://cdn.unosquare.com/assets/icons/unicorn_icon.svg
-  logoUrl: https://cdn.unosquare.com/assets/unosquare_whitelogo.svg
+  logoUrl: https://cdn.unosquare.com/assets/icons/unicorn_icon.svg
   cname: status.unosquare.com # Custom domain CNAME
-  name: Status
+  name: Unosquare
   navbar:
     - title: Status
       href: /
