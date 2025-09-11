@@ -26,6 +26,7 @@ status-website:
   publish: true
   theme: ocean
   faviconSvg: https://cdn.unosquare.com/assets/icons/unicorn_icon.svg
+  favicon: https://www.unosquare.com/wp-content/uploads/2025/01/cropped-unosquare-favicon-192x192.png
   logoUrl: https://cdn.unosquare.com/assets/icons/unicorn_icon.svg
   cname: status.unosquare.com # Custom domain CNAME
   name: Unosquare
