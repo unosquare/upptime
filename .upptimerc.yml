@@ -20,6 +20,8 @@ sites:
     url: $REPORTS_API_PATH
   - name: Billing
     url: $BILLING_API_PATH
+  - name: Graph
+    url: $GRAPH_API_PATH
   
 assignees: # Users to assign downtime issues (optional)
   - jpalcala
