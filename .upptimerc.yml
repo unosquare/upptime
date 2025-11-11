@@ -22,6 +22,10 @@ sites:
     url: $BILLING_API_PATH
   - name: Graph
     url: $GRAPH_API_PATH
+  - name: $FUNCTION_CORE_API_PATH
+    url: Function Core
+  - name: $FUNCTION_BILLING_API_PATH
+    url: Function Billing
   
 assignees: # Users to assign downtime issues (optional)
   - jpalcala
