@@ -26,6 +26,8 @@ sites:
     url: $FUNCTION_CORE_API_PATH
   - name: Function Billing
     url: $FUNCTION_BILLING_API_PATH
+  - name: Uno Subsystem
+    url: $SUBSYSTEM_API_PATH
   
 assignees: # Users to assign downtime issues (optional)
   - jpalcala
