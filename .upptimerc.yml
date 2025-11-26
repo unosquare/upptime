@@ -26,6 +26,10 @@ sites:
     url: $FUNCTION_CORE_API_PATH
   - name: Function Billing
     url: $FUNCTION_BILLING_API_PATH
+  - name: AI Functions
+    url: $AI_FUNCTIONS_API_PATH
+  - name: Workflow Functions
+    url: $WORKFLOW_FUNCTIONS_API_PATH
   - name: Uno Subsystem
     url: $SUBSYSTEM_API_PATH
   
