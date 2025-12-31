@@ -192,9 +192,9 @@
     "url": "$FUNCTION_CORE_API_PATH",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "function-core",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -203,7 +203,9 @@
     "timeWeek": 265,
     "timeMonth": 222,
     "timeYear": 209,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-12-31": 0
+    }
   },
   {
     "name": "Function Billing",
