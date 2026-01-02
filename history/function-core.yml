@@ -1,7 +1,7 @@
 url: $FUNCTION_CORE_API_PATH
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2026-01-02T15:47:23.614Z
+status: up
+code: 200
+responseTime: 285
+lastUpdated: 2026-01-02T15:52:49.368Z
 startTime: 2025-11-11T21:54:24.202Z
 generator: Upptime <https://github.com/upptime/upptime>
