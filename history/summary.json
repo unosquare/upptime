@@ -22,10 +22,10 @@
     "url": "$ELP_API_PATH",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "elp",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.92%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 85,
@@ -33,7 +33,9 @@
     "timeWeek": 83,
     "timeMonth": 95,
     "timeYear": 85,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-01-14": 1
+    }
   },
   {
     "name": "Vacations",
@@ -120,19 +122,19 @@
     "url": "$AUTH_API_PATH",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "auth",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.31%",
+    "uptimeWeek": "99.90%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
     "time": 70,
-    "timeDay": 46,
-    "timeWeek": 55,
-    "timeMonth": 69,
+    "timeDay": 84,
+    "timeWeek": 64,
+    "timeMonth": 71,
     "timeYear": 70,
     "dailyMinutesDown": {
-      "2026-01-14": 0
+      "2026-01-14": 10
     }
   },
   {
