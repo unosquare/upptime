@@ -4,19 +4,19 @@
     "url": "$CORE_API_PATH",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "core",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.54%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.98%",
+    "uptimeDay": "99.19%",
+    "uptimeWeek": "99.88%",
+    "uptimeMonth": "99.97%",
     "uptimeYear": "100.00%",
-    "time": 313,
-    "timeDay": 343,
-    "timeWeek": 333,
-    "timeMonth": 325,
-    "timeYear": 313,
+    "time": 314,
+    "timeDay": 378,
+    "timeWeek": 343,
+    "timeMonth": 328,
+    "timeYear": 314,
     "dailyMinutesDown": {
-      "2026-01-15": 7
+      "2026-01-15": 12
     }
   },
   {
@@ -42,19 +42,19 @@
     "url": "$VACATIONS_API_PATH",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "vacations",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.68%",
-    "uptimeWeek": "99.95%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "100.00%",
-    "time": 81,
-    "timeDay": 64,
-    "timeWeek": 73,
-    "timeMonth": 107,
-    "timeYear": 81,
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "99.23%",
+    "uptimeWeek": "99.89%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.99%",
+    "time": 83,
+    "timeDay": 188,
+    "timeWeek": 102,
+    "timeMonth": 113,
+    "timeYear": 83,
     "dailyMinutesDown": {
-      "2026-01-15": 5
+      "2026-01-15": 11
     }
   },
   {
@@ -64,9 +64,9 @@
     "slug": "forms",
     "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "99.79%",
-    "uptimeWeek": "99.97%",
-    "uptimeMonth": "99.99%",
+    "uptimeDay": "99.11%",
+    "uptimeWeek": "99.87%",
+    "uptimeMonth": "99.97%",
     "uptimeYear": "100.00%",
     "time": 95,
     "timeDay": 68,
@@ -74,7 +74,7 @@
     "timeMonth": 77,
     "timeYear": 95,
     "dailyMinutesDown": {
-      "2026-01-15": 3
+      "2026-01-15": 13
     }
   },
   {
