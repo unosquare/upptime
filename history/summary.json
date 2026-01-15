@@ -4,18 +4,20 @@
     "url": "$CORE_API_PATH",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "core",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.54%",
+    "uptimeWeek": "99.93%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
     "time": 313,
     "timeDay": 343,
     "timeWeek": 333,
     "timeMonth": 325,
     "timeYear": 313,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-01-15": 7
+    }
   },
   {
     "name": "ELP",
@@ -40,36 +42,40 @@
     "url": "$VACATIONS_API_PATH",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "vacations",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.68%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 81,
     "timeDay": 64,
     "timeWeek": 73,
     "timeMonth": 107,
     "timeYear": 81,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-01-15": 5
+    }
   },
   {
     "name": "Forms",
     "url": "$FORMS_API_PATH",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "forms",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.79%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 95,
     "timeDay": 68,
     "timeWeek": 60,
     "timeMonth": 77,
     "timeYear": 95,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-01-15": 3
+    }
   },
   {
     "name": "AI",
