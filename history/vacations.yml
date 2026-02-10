@@ -1,7 +1,7 @@
 url: $VACATIONS_API_PATH
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2026-02-10T14:18:20.614Z
+status: up
+code: 200
+responseTime: 81
+lastUpdated: 2026-02-10T14:43:23.333Z
 startTime: 2025-09-11T23:19:32.523Z
 generator: Upptime <https://github.com/upptime/upptime>
