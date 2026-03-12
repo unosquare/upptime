@@ -1,7 +1,7 @@
 url: $WORKFLOW_FUNCTIONS_API_PATH
-status: down
-code: 500
-responseTime: 21089
-lastUpdated: 2026-03-12T18:17:27.589Z
+status: up
+code: 200
+responseTime: 160
+lastUpdated: 2026-03-12T20:29:23.147Z
 startTime: 2025-11-26T21:08:01.665Z
 generator: Upptime <https://github.com/upptime/upptime>
