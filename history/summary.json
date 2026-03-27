@@ -178,28 +178,30 @@
     "url": "$GRAPH_API_PATH",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "graph",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.83%",
+    "uptimeWeek": "99.98%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 221,
     "timeDay": 241,
     "timeWeek": 322,
     "timeMonth": 270,
     "timeYear": 221,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-03-27": 3
+    }
   },
   {
     "name": "Function Core",
     "url": "$FUNCTION_CORE_API_PATH",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "function-core",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.86%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 257,
@@ -207,17 +209,19 @@
     "timeWeek": 368,
     "timeMonth": 402,
     "timeYear": 257,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-03-27": 2
+    }
   },
   {
     "name": "Function Billing",
     "url": "$FUNCTION_BILLING_API_PATH",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "function-billing",
-    "status": "up",
+    "status": "down",
     "uptime": "99.97%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.90%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
     "time": 246,
@@ -226,6 +230,7 @@
     "timeMonth": 243,
     "timeYear": 246,
     "dailyMinutesDown": {
+      "2026-03-27": 1,
       "2026-02-17": 49
     }
   },
@@ -234,11 +239,11 @@
     "url": "$AI_FUNCTIONS_API_PATH",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "ai-functions",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "98.37%",
-    "uptimeWeek": "99.77%",
-    "uptimeMonth": "99.95%",
+    "uptimeDay": "98.30%",
+    "uptimeWeek": "99.76%",
+    "uptimeMonth": "99.94%",
     "uptimeYear": "99.99%",
     "time": 214,
     "timeDay": 155,
@@ -246,7 +251,7 @@
     "timeMonth": 205,
     "timeYear": 214,
     "dailyMinutesDown": {
-      "2026-03-27": 24
+      "2026-03-27": 25
     }
   },
   {
@@ -254,9 +259,9 @@
     "url": "$WORKFLOW_FUNCTIONS_API_PATH",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "workflow-functions",
-    "status": "up",
+    "status": "down",
     "uptime": "99.90%",
-    "uptimeDay": "98.40%",
+    "uptimeDay": "98.38%",
     "uptimeWeek": "99.77%",
     "uptimeMonth": "99.65%",
     "uptimeYear": "99.90%",
