@@ -1,7 +1,7 @@
 url: $FUNCTION_BILLING_API_PATH
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2026-03-27T17:37:40.114Z
+status: up
+code: 200
+responseTime: 433
+lastUpdated: 2026-03-27T17:57:08.442Z
 startTime: 2025-11-11T21:54:24.827Z
 generator: Upptime <https://github.com/upptime/upptime>
