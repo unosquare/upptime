@@ -1,7 +1,7 @@
 url: $WORKFLOW_FUNCTIONS_API_PATH
 status: up
 code: 200
-responseTime: 261
-lastUpdated: 2026-04-13T23:22:24.624Z
+responseTime: 204
+lastUpdated: 2026-04-14T23:21:44.232Z
 startTime: 2025-11-26T21:08:01.665Z
 generator: Upptime <https://github.com/upptime/upptime>
