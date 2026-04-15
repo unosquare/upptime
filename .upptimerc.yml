@@ -34,6 +34,8 @@ sites:
     url: $SUBSYSTEM_API_PATH
   - name: Talent Matching (Unosquare OS)
     url: $TALENT_MATCHING_API_PATH
+  - name: Identity (Unosquare OS)
+    url: $IDENTITY_OS_API_PATH
   
 assignees: # Users to assign downtime issues (optional)
   - jpalcala
