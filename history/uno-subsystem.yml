@@ -1,7 +1,7 @@
 url: $SUBSYSTEM_API_PATH
 status: up
 code: 200
-responseTime: 235
-lastUpdated: 2026-04-15T19:40:58.399Z
+responseTime: 60
+lastUpdated: 2026-04-15T19:45:00.379Z
 startTime: 2025-11-25T22:59:37.455Z
 generator: Upptime <https://github.com/upptime/upptime>
