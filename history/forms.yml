@@ -1,7 +1,7 @@
 url: $FORMS_API_PATH
-status: down
-code: 503
-responseTime: 117
-lastUpdated: 2026-05-05T11:19:06.162Z
+status: up
+code: 200
+responseTime: 97
+lastUpdated: 2026-05-05T16:44:04.915Z
 startTime: 2025-07-17T18:41:03.629Z
 generator: Upptime <https://github.com/upptime/upptime>
