@@ -1,7 +1,7 @@
 url: $GRAPH_API_PATH
-status: down
-code: 503
-responseTime: 314
-lastUpdated: 2026-05-05T11:19:13.798Z
+status: up
+code: 200
+responseTime: 308
+lastUpdated: 2026-05-05T16:44:16.855Z
 startTime: 2025-10-28T17:13:35.281Z
 generator: Upptime <https://github.com/upptime/upptime>
