@@ -1,7 +1,7 @@
 url: $CORE_API_PATH
-status: down
-code: 503
-responseTime: 336
-lastUpdated: 2026-05-05T10:09:50.969Z
+status: up
+code: 200
+responseTime: 56
+lastUpdated: 2026-05-05T10:49:21.144Z
 startTime: 2025-07-17T18:15:03.631Z
 generator: Upptime <https://github.com/upptime/upptime>
