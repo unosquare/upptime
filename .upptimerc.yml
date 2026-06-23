@@ -24,7 +24,13 @@ sites:
     url: $IDENTITY_OS_API_PATH
   - name: Workflows (Unosquare OS)
     url: $WORKFLOWS_OS_API_PATH
-  
+  # Satellite front-end apps (os-workspace#360). These were invisible to monitoring
+  # until they broke in prod; tracking their public URLs here closes that gap.
+  - name: APR Survey (satellite)
+    url: https://survey.unosquare.com
+  - name: Vacation Approvals (satellite)
+    url: https://vacation-approvals.unosquare.com
+
 assignees: # Users to assign downtime issues (optional)
   - jpalcala
   - clementezazueta
