@@ -1,7 +1,7 @@
 url: $REPORTS_API_PATH
 status: up
 code: 200
-responseTime: 165
-lastUpdated: 2026-06-25T23:34:50.922Z
+responseTime: 123
+lastUpdated: 2026-06-26T23:31:56.171Z
 startTime: 2025-07-17T18:41:04.604Z
 generator: Upptime <https://github.com/upptime/upptime>
