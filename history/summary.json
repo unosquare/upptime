@@ -115,17 +115,17 @@
     "url": "$FUNCTION_BILLING_API_PATH",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "function-billing",
-    "status": "up",
-    "uptime": "98.13%",
-    "uptimeDay": "100.00%",
+    "status": "down",
+    "uptime": "98.14%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "98.13%",
-    "time": 347,
-    "timeDay": 301,
-    "timeWeek": 202,
-    "timeMonth": 202,
-    "timeYear": 347,
+    "uptimeYear": "98.14%",
+    "time": 346,
+    "timeDay": 232,
+    "timeWeek": 197,
+    "timeMonth": 201,
+    "timeYear": 346,
     "dailyMinutesDown": {
       "2026-02-17": 49,
       "2026-03-27": 20,
@@ -134,7 +134,8 @@
       "2026-04-12": 1440,
       "2026-04-11": 1440,
       "2026-04-10": 1440,
-      "2026-04-09": 196
+      "2026-04-09": 196,
+      "2026-07-13": 0
     }
   },
   {
