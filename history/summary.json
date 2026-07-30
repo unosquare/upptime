@@ -53,18 +53,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "api-action-items",
     "status": "up",
-    "uptime": "0.00%",
-    "uptimeDay": "0.00%",
-    "uptimeWeek": "0.00%",
-    "uptimeMonth": "0.00%",
-    "uptimeYear": "0.00%",
+    "uptime": "86.93%",
+    "uptimeDay": "86.93%",
+    "uptimeWeek": "86.93%",
+    "uptimeMonth": "86.93%",
+    "uptimeYear": "86.93%",
     "time": 37,
     "timeDay": 37,
     "timeWeek": 37,
     "timeMonth": 37,
     "timeYear": 37,
     "dailyMinutesDown": {
-      "2026-07-30": 1
+      "2026-07-30": 4
     }
   },
   {
@@ -73,18 +73,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "api-ats",
     "status": "up",
-    "uptime": "15.88%",
-    "uptimeDay": "15.88%",
-    "uptimeWeek": "15.88%",
-    "uptimeMonth": "15.88%",
-    "uptimeYear": "15.88%",
+    "uptime": "87.55%",
+    "uptimeDay": "87.55%",
+    "uptimeWeek": "87.55%",
+    "uptimeMonth": "87.55%",
+    "uptimeYear": "87.55%",
     "time": 28,
     "timeDay": 28,
     "timeWeek": 28,
     "timeMonth": 28,
     "timeYear": 28,
     "dailyMinutesDown": {
-      "2026-07-30": 1
+      "2026-07-30": 4
     }
   },
   {
@@ -93,18 +93,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "api-audit-trail",
     "status": "up",
-    "uptime": "39.53%",
-    "uptimeDay": "39.53%",
-    "uptimeWeek": "39.53%",
-    "uptimeMonth": "39.53%",
-    "uptimeYear": "39.53%",
+    "uptime": "88.17%",
+    "uptimeDay": "88.17%",
+    "uptimeWeek": "88.17%",
+    "uptimeMonth": "88.17%",
+    "uptimeYear": "88.17%",
     "time": 33,
     "timeDay": 33,
     "timeWeek": 33,
     "timeMonth": 33,
     "timeYear": 33,
     "dailyMinutesDown": {
-      "2026-07-30": 1
+      "2026-07-30": 4
     }
   },
   {
@@ -113,18 +113,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "api-discussions",
     "status": "up",
-    "uptime": "62.94%",
-    "uptimeDay": "62.94%",
-    "uptimeWeek": "62.94%",
-    "uptimeMonth": "62.94%",
-    "uptimeYear": "62.94%",
+    "uptime": "88.79%",
+    "uptimeDay": "88.79%",
+    "uptimeWeek": "88.79%",
+    "uptimeMonth": "88.79%",
+    "uptimeYear": "88.79%",
     "time": 24,
     "timeDay": 24,
     "timeWeek": 24,
     "timeMonth": 24,
     "timeYear": 24,
     "dailyMinutesDown": {
-      "2026-07-30": 0
+      "2026-07-30": 4
     }
   },
   {
@@ -151,18 +151,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "api-one-on-ones",
     "status": "up",
-    "uptime": "84.43%",
-    "uptimeDay": "84.43%",
-    "uptimeWeek": "84.43%",
-    "uptimeMonth": "84.43%",
-    "uptimeYear": "84.43%",
+    "uptime": "89.36%",
+    "uptimeDay": "89.36%",
+    "uptimeWeek": "89.36%",
+    "uptimeMonth": "89.36%",
+    "uptimeYear": "89.36%",
     "time": 36,
     "timeDay": 36,
     "timeWeek": 36,
     "timeMonth": 36,
     "timeYear": 36,
     "dailyMinutesDown": {
-      "2026-07-30": 0
+      "2026-07-30": 3
     }
   },
   {
@@ -171,17 +171,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "api-settings",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "89.92%",
+    "uptimeDay": "89.92%",
+    "uptimeWeek": "89.92%",
+    "uptimeMonth": "89.92%",
+    "uptimeYear": "89.92%",
     "time": 25,
     "timeDay": 25,
     "timeWeek": 25,
     "timeMonth": 25,
     "timeYear": 25,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-07-30": 3
+    }
   },
   {
     "name": "API · TalentMatching",
@@ -268,17 +270,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "reports-client-api",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "90.60%",
+    "uptimeDay": "90.60%",
+    "uptimeWeek": "90.60%",
+    "uptimeMonth": "90.60%",
+    "uptimeYear": "90.60%",
     "time": 28,
     "timeDay": 28,
     "timeWeek": 28,
     "timeMonth": 28,
     "timeYear": 28,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-07-30": 3
+    }
   },
   {
     "name": "Reports · RDLC",
@@ -286,17 +290,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "reports-rdlc",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "91.22%",
+    "uptimeDay": "91.22%",
+    "uptimeWeek": "91.22%",
+    "uptimeMonth": "91.22%",
+    "uptimeYear": "91.22%",
     "time": 160,
     "timeDay": 160,
     "timeWeek": 160,
     "timeMonth": 160,
     "timeYear": 160,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-07-30": 3
+    }
   },
   {
     "name": "Reports · FunctionCore (Xero ETL)",
@@ -305,7 +311,7 @@
     "slug": "function-core",
     "status": "up",
     "uptime": "99.55%",
-    "uptimeDay": "2.61%",
+    "uptimeDay": "4.79%",
     "uptimeWeek": "83.52%",
     "uptimeMonth": "96.21%",
     "uptimeYear": "99.55%",
@@ -348,17 +354,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "worker-notifications-fn",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "91.85%",
+    "uptimeDay": "91.85%",
+    "uptimeWeek": "91.85%",
+    "uptimeMonth": "91.85%",
+    "uptimeYear": "91.85%",
     "time": 33,
     "timeDay": 33,
     "timeWeek": 33,
     "timeMonth": 33,
     "timeYear": 33,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-07-30": 3
+    }
   },
   {
     "name": "Worker · TME.Functions",
@@ -366,37 +374,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "worker-tme-fn",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "92.51%",
+    "uptimeDay": "92.51%",
+    "uptimeWeek": "92.51%",
+    "uptimeMonth": "92.51%",
+    "uptimeYear": "92.51%",
     "time": 29,
     "timeDay": 29,
     "timeWeek": 29,
     "timeMonth": 29,
     "timeYear": 29,
-    "dailyMinutesDown": {}
-  },
-  {
-    "name": "Worker · Uno Subsystem (legacy audit)",
-    "url": "$SUBSYSTEM_API_PATH",
-    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
-    "slug": "uno-subsystem",
-    "status": "up",
-    "uptime": "99.98%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "99.98%",
-    "time": 1128,
-    "timeDay": 230,
-    "timeWeek": 408,
-    "timeMonth": 376,
-    "timeYear": 1128,
     "dailyMinutesDown": {
-      "2026-02-23": 66,
-      "2026-03-18": 23
+      "2026-07-30": 2
     }
   },
   {
@@ -513,17 +502,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "web-workflows-studio",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "93.22%",
+    "uptimeDay": "93.22%",
+    "uptimeWeek": "93.22%",
+    "uptimeMonth": "93.22%",
+    "uptimeYear": "93.22%",
     "time": 24,
     "timeDay": 24,
     "timeWeek": 24,
     "timeMonth": 24,
     "timeYear": 24,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-07-30": 2
+    }
   },
   {
     "name": "Web · APR Survey (satellite)",
