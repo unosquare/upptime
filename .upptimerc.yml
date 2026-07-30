@@ -1,39 +1,186 @@
 owner: unosquare
 repo: upptime
 
-sites:
-  - name: Core
-    url: $CORE_API_PATH
-  - name: Workflow
-    url: $REPORTS_API_PATH
-  - name: Billing
-    url: $BILLING_API_PATH
-  - name: Graph
-    url: $GRAPH_API_PATH
-  - name: Function Core
-    url: $FUNCTION_CORE_API_PATH
-  - name: Function Billing
-    url: $FUNCTION_BILLING_API_PATH
-  - name: Workflow Functions
-    url: $WORKFLOW_FUNCTIONS_API_PATH
-  - name: Uno Subsystem
-    url: $SUBSYSTEM_API_PATH
-  - name: Talent Matching (Unosquare OS)
-    url: $TALENT_MATCHING_API_PATH
-  - name: Identity (Unosquare OS)
-    url: $IDENTITY_OS_API_PATH
-  - name: Workflows (Unosquare OS)
-    url: $WORKFLOWS_OS_API_PATH
-  # Satellite front-end apps (os-workspace#360). These were invisible to monitoring
-  # until they broke in prod; tracking their public URLs here closes that gap.
-  - name: APR Survey (satellite)
-    url: https://survey.unosquare.com
-  - name: Vacation Approvals (satellite)
-    url: https://vacation-approvals.unosquare.com
+# Probe targets are GitHub secrets because this repo is public (that is what buys
+# free Actions minutes for the probes and free Pages for the status page). The
+# auditable counterpart — which host each secret is supposed to point at, and why
+# each prod host is or is not monitored — lives in the PRIVATE os-workspace repo at
+# docs/uptime-monitoring.md, and the sites below are generated from it.
+#
+# The `slug` on every site is load-bearing: Upptime keys history/<slug>.yml,
+# api/<slug>/ and the downtime-issue label off it, so pinning it is what lets a
+# site be renamed for readability without discarding its uptime history.
+#
+# `tags` become labels on the downtime issue (Upptime does NOT group by them on the
+# status page — the default status-page package ignores the field — which is why the
+# tier is also spelled out in each display name).
 
-assignees: # Users to assign downtime issues (optional)
+sites:
+  # ---- api -----------------------------------------------------------------
+  # Core OS services. Probe /health; every modern domain exposes it.
+  - name: "API · Core (legacy)"
+    slug: core
+    url: $CORE_API_PATH
+    tags: [api]
+  - name: "API · CoreGraph"
+    slug: graph
+    url: $GRAPH_API_PATH
+    tags: [api]
+  - name: "API · ActionItems"
+    slug: api-action-items
+    url: $ACTION_ITEMS_API_PATH
+    tags: [api]
+  - name: "API · ATS"
+    slug: api-ats
+    url: $ATS_API_PATH
+    tags: [api]
+  - name: "API · AuditTrail"
+    slug: api-audit-trail
+    url: $AUDIT_TRAIL_API_PATH
+    tags: [api]
+  - name: "API · Discussions"
+    slug: api-discussions
+    url: $DISCUSSIONS_API_PATH
+    tags: [api]
+  - name: "API · Identity"
+    slug: identity-unosquare-os
+    url: $IDENTITY_OS_API_PATH
+    tags: [api]
+  - name: "API · OneOnOnes"
+    slug: api-one-on-ones
+    url: $ONE_ON_ONES_API_PATH
+    tags: [api]
+  - name: "API · Settings"
+    slug: api-settings
+    url: $SETTINGS_API_PATH
+    tags: [api]
+  - name: "API · TalentMatching"
+    slug: talent-matching-unosquare-os
+    url: $TALENT_MATCHING_API_PATH
+    tags: [api]
+  - name: "API · Workflows"
+    slug: workflows-unosquare-os
+    url: $WORKFLOWS_OS_API_PATH
+    tags: [api]
+  # ---- reports -------------------------------------------------------------
+  # Absorbed reports/billing hosts (Core.Reports subtree).
+  - name: "Reports · Exec API"
+    slug: workflow
+    url: $REPORTS_API_PATH
+    tags: [reports]
+  - name: "Reports · Billing API"
+    slug: billing
+    url: $BILLING_API_PATH
+    tags: [reports]
+  - name: "Reports · Client API"
+    slug: reports-client-api
+    url: $CLIENT_API_PATH
+    tags: [reports]
+  - name: "Reports · RDLC"
+    slug: reports-rdlc
+    url: $RDLC_API_PATH
+    tags: [reports]
+  - name: "Reports · FunctionCore (Xero ETL)"
+    slug: function-core
+    url: $FUNCTION_CORE_API_PATH
+    tags: [reports]
+  # ---- worker --------------------------------------------------------------
+  # Unattended background hosts. Nothing here is driven by a user session,
+  # which is why the schedule below must stay 24/7. A root probe proves the
+  # host is up, not that its timers run — that is the App Insights report's job.
+  - name: "Worker · Workflow.Functions"
+    slug: workflow-functions
+    url: $WORKFLOW_FUNCTIONS_API_PATH
+    tags: [worker]
+  - name: "Worker · Notifications.Functions"
+    slug: worker-notifications-fn
+    url: $NOTIFICATIONS_FN_API_PATH
+    tags: [worker]
+  - name: "Worker · TME.Functions"
+    slug: worker-tme-fn
+    url: $TME_FN_API_PATH
+    tags: [worker]
+  - name: "Worker · Uno Subsystem (legacy audit)"
+    slug: uno-subsystem
+    url: $SUBSYSTEM_API_PATH
+    tags: [worker]
+  # ---- web -----------------------------------------------------------------
+  # Front-ends. Public CNAMEs stay in plaintext; users type these URLs.
+  - name: "Web · OS Shell"
+    slug: web-os-shell
+    url: https://os.unosquare.com
+    tags: [web]
+  - name: "Web · Billing"
+    slug: web-billing
+    url: https://billing.unosquare.com
+    tags: [web]
+  - name: "Web · Assignment"
+    slug: web-assignment
+    url: https://assignment.unosquare.com
+    tags: [web]
+  - name: "Web · Reports"
+    slug: web-reports
+    url: https://reports.unosquare.com
+    tags: [web]
+  - name: "Web · Core Dashboard"
+    slug: web-core-dashboard
+    url: https://core.unosquare.com
+    tags: [web]
+  - name: "Web · NomiCore (payroll)"
+    slug: web-nomicore
+    url: https://nomicore.unosquare.com
+    tags: [web]
+    expectedStatusCodes: [401]  # App Service Easy Auth: a non-5xx is the liveness signal, there is no /health
+  - name: "Web · Workflows Studio"
+    slug: web-workflows-studio
+    url: $WORKFLOWS_STUDIO_PATH
+    tags: [web]
+  - name: "Web · APR Survey (satellite)"
+    slug: apr-survey-satellite
+    url: https://survey.unosquare.com
+    tags: [web]
+  - name: "Web · Vacation Approvals (satellite)"
+    slug: vacation-approvals-satellite
+    url: https://vacation-approvals.unosquare.com
+    tags: [web]
+
+# Fallback owners for any downtime issue. Per-site `assignees:` would route each
+# tier to the team that owns it (Upptime merges them with this list) — worth adding
+# once the per-domain GitHub handles are confirmed; guessing them would misroute.
+assignees:
   - jpalcala
   - clementezazueta
+
+# Explicit secret allowlist. Without this key Upptime falls back to automatic
+# compatibility mode and inlines ~100 possible secret names into SECRETS_CONTEXT in
+# every generated workflow. Note NOTIFICATION_* must be listed: Upptime resolves
+# notification channels only through SECRETS_CONTEXT, so omitting one here silently
+# disables that channel while the secret still looks present in repo settings.
+secrets:
+  - CORE_API_PATH
+  - GRAPH_API_PATH
+  - ACTION_ITEMS_API_PATH
+  - ATS_API_PATH
+  - AUDIT_TRAIL_API_PATH
+  - DISCUSSIONS_API_PATH
+  - IDENTITY_OS_API_PATH
+  - ONE_ON_ONES_API_PATH
+  - SETTINGS_API_PATH
+  - TALENT_MATCHING_API_PATH
+  - WORKFLOWS_OS_API_PATH
+  - REPORTS_API_PATH
+  - BILLING_API_PATH
+  - CLIENT_API_PATH
+  - RDLC_API_PATH
+  - FUNCTION_CORE_API_PATH
+  - WORKFLOW_FUNCTIONS_API_PATH
+  - NOTIFICATIONS_FN_API_PATH
+  - TME_FN_API_PATH
+  - SUBSYSTEM_API_PATH
+  - WORKFLOWS_STUDIO_PATH
+  - NOTIFICATION_TEAMS
+  - NOTIFICATION_TEAMS_WEBHOOK_URL
+
 status-website:
   publish: true
   theme: ocean
@@ -47,5 +194,10 @@ status-website:
       href: /
     - title: Report an issue
       href: https://unosquare.atlassian.net/servicedesk/customer/portal/2/create/19
+
 workflowSchedule:
-  uptime: "*/10 8-20 * * 1-5"
+  # 24/7. The previous `*/10 8-20 * * 1-5` left nights and weekends unmonitored,
+  # which is exactly when the unattended `worker` hosts above run unobserved.
+  # GitHub already throttles cron on a busy repo (~30-40 min effective here), and
+  # a public repo has no Actions-minute cost, so the wider window is free.
+  uptime: "*/10 * * * *"
