@@ -100,10 +100,6 @@ sites:
     slug: worker-tme-fn
     url: $TME_FN_API_PATH
     tags: [worker]
-  - name: "Worker · Uno Subsystem (legacy audit)"
-    slug: uno-subsystem
-    url: $SUBSYSTEM_API_PATH
-    tags: [worker]
   # ---- web -----------------------------------------------------------------
   # Front-ends. Public CNAMEs stay in plaintext; users type these URLs.
   - name: "Web · OS Shell"
@@ -176,7 +172,6 @@ secrets:
   - WORKFLOW_FUNCTIONS_API_PATH
   - NOTIFICATIONS_FN_API_PATH
   - TME_FN_API_PATH
-  - SUBSYSTEM_API_PATH
   - WORKFLOWS_STUDIO_PATH
   - NOTIFICATION_TEAMS
   - NOTIFICATION_TEAMS_WEBHOOK_URL
