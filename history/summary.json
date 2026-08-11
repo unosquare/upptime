@@ -5,7 +5,7 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "core",
     "status": "up",
-    "uptime": "98.42%",
+    "uptime": "98.43%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
@@ -251,24 +251,6 @@
     "dailyMinutesDown": {
       "2026-05-01": 57
     }
-  },
-  {
-    "name": "Reports · Client API",
-    "url": "$CLIENT_API_PATH",
-    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
-    "slug": "reports-client-api",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 145,
-    "timeDay": 43,
-    "timeWeek": 213,
-    "timeMonth": 145,
-    "timeYear": 145,
-    "dailyMinutesDown": {}
   },
   {
     "name": "Reports · RDLC",
