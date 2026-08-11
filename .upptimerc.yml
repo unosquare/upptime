@@ -72,10 +72,17 @@ sites:
     slug: billing
     url: $BILLING_API_PATH
     tags: [reports]
-  - name: "Reports · Client API"
-    slug: reports-client-api
-    url: $CLIENT_API_PATH
-    tags: [reports]
+  # "Reports · Client API" (slug reports-client-api, $CLIENT_API_PATH -> the
+  # `clientcore` App Service) was removed on 2026-08-11. The host was deliberately
+  # STOPPED that day as os-workspace#619 Stage 3, so /health answers 403 "Web App -
+  # Unavailable" and the probe would report a permanent, already-explained outage.
+  # This is NOT the functionbilling failure mode: that host was unmonitored while
+  # nobody knew it was dead. Here the stop is intentional, dated, and recorded in
+  # os-workspace docs/uptime-monitoring.md next to the decision date.
+  # Do not re-add: if `clientcore` is ever restarted the entry comes back with it;
+  # if os-workspace#619 completes, the host is deleted and so is this monitor.
+  # Keep the slug spelled `reports-client-api` if it is restored — Upptime keys
+  # history/reports-client-api.yml and api/reports-client-api/ off it.
   - name: "Reports · RDLC"
     slug: reports-rdlc
     url: $RDLC_API_PATH
