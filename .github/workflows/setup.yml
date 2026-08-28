@@ -6,7 +6,7 @@
 # Your changes will be overwritten when the Upptime template updates (by default, weekly)
 # Instead, change .upptimerc.yml configuration and the workflows will be generated accordingly.
 #
-# 🔼 Upptime @v1.43.15
+# 🔼 Upptime @v1.43.16
 # GitHub-powered open-source uptime monitor and status page by Anand Chowdhary
 
 # * Source: https://github.com/upptime/upptime
@@ -36,13 +36,13 @@ jobs:
           ref: ${{ github.head_ref || github.ref_name }}
           token: ${{ secrets.GH_PAT || github.token }}
       - name: Update template
-        uses: upptime/uptime-monitor@v1.43.15
+        uses: upptime/uptime-monitor@v1.43.16
         with:
           command: "update-template"
         env:
           GH_PAT: ${{ secrets.GH_PAT || github.token }}
       - name: Update response time
-        uses: upptime/uptime-monitor@v1.43.15
+        uses: upptime/uptime-monitor@v1.43.16
         with:
           command: "response-time"
         env:
@@ -50,7 +50,7 @@ jobs:
           # Configure the secret allowlist in .upptimerc.yml; do not edit this workflow directly.
           SECRETS_CONTEXT: '{"CORE_API_PATH":${{ toJson(secrets.CORE_API_PATH) }},"GRAPH_API_PATH":${{ toJson(secrets.GRAPH_API_PATH) }},"ACTION_ITEMS_API_PATH":${{ toJson(secrets.ACTION_ITEMS_API_PATH) }},"ATS_API_PATH":${{ toJson(secrets.ATS_API_PATH) }},"AUDIT_TRAIL_API_PATH":${{ toJson(secrets.AUDIT_TRAIL_API_PATH) }},"DISCUSSIONS_API_PATH":${{ toJson(secrets.DISCUSSIONS_API_PATH) }},"IDENTITY_OS_API_PATH":${{ toJson(secrets.IDENTITY_OS_API_PATH) }},"ONE_ON_ONES_API_PATH":${{ toJson(secrets.ONE_ON_ONES_API_PATH) }},"SETTINGS_API_PATH":${{ toJson(secrets.SETTINGS_API_PATH) }},"TALENT_MATCHING_API_PATH":${{ toJson(secrets.TALENT_MATCHING_API_PATH) }},"WORKFLOWS_OS_API_PATH":${{ toJson(secrets.WORKFLOWS_OS_API_PATH) }},"REPORTS_API_PATH":${{ toJson(secrets.REPORTS_API_PATH) }},"BILLING_API_PATH":${{ toJson(secrets.BILLING_API_PATH) }},"CLIENT_API_PATH":${{ toJson(secrets.CLIENT_API_PATH) }},"RDLC_API_PATH":${{ toJson(secrets.RDLC_API_PATH) }},"FUNCTION_CORE_API_PATH":${{ toJson(secrets.FUNCTION_CORE_API_PATH) }},"WORKFLOW_FUNCTIONS_API_PATH":${{ toJson(secrets.WORKFLOW_FUNCTIONS_API_PATH) }},"NOTIFICATIONS_FN_API_PATH":${{ toJson(secrets.NOTIFICATIONS_FN_API_PATH) }},"TME_FN_API_PATH":${{ toJson(secrets.TME_FN_API_PATH) }},"WORKFLOWS_STUDIO_PATH":${{ toJson(secrets.WORKFLOWS_STUDIO_PATH) }},"NOTIFICATION_TEAMS":${{ toJson(secrets.NOTIFICATION_TEAMS) }},"NOTIFICATION_TEAMS_WEBHOOK_URL":${{ toJson(secrets.NOTIFICATION_TEAMS_WEBHOOK_URL) }}}'
       - name: Update summary in README
-        uses: upptime/uptime-monitor@v1.43.15
+        uses: upptime/uptime-monitor@v1.43.16
         with:
           command: "readme"
         env:
@@ -69,13 +69,13 @@ jobs:
           node-version: "20"
       - name: Generate graphs directly if dispatch fails
         if: steps.dispatch_graphs.outcome == 'failure'
-        uses: upptime/uptime-monitor@v1.43.15
+        uses: upptime/uptime-monitor@v1.43.16
         with:
           command: "graphs"
         env:
           GH_PAT: ${{ secrets.GH_PAT || github.token }}
       - name: Generate site
-        uses: upptime/uptime-monitor@v1.43.15
+        uses: upptime/uptime-monitor@v1.43.16
         with:
           command: "site"
         env:
