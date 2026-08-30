@@ -1,7 +1,7 @@
 url: $AUDIT_TRAIL_API_PATH
 status: up
 code: 200
-responseTime: 277
-lastUpdated: 2026-08-29T23:12:57.214Z
+responseTime: 29
+lastUpdated: 2026-08-30T23:13:15.689Z
 startTime: 2026-07-30T21:19:21.313Z
 generator: Upptime <https://github.com/upptime/upptime>
