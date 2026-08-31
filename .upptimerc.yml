@@ -58,6 +58,10 @@ sites:
     slug: talent-matching-unosquare-os
     url: $TALENT_MATCHING_API_PATH
     tags: [api]
+  - name: "API · TimeTracker"
+    slug: api-time-tracker
+    url: $TIME_TRACKER_API_PATH
+    tags: [api]
   - name: "API · Workflows"
     slug: workflows-unosquare-os
     url: $WORKFLOWS_OS_API_PATH
@@ -129,6 +133,10 @@ sites:
     slug: web-core-dashboard
     url: https://core.unosquare.com
     tags: [web]
+  - name: "Web · Timesheet"
+    slug: web-timesheet
+    url: https://timesheet.unosquare.com
+    tags: [web]
   - name: "Web · NomiCore (payroll)"
     slug: web-nomicore
     url: https://nomicore.unosquare.com
@@ -170,6 +178,7 @@ secrets:
   - ONE_ON_ONES_API_PATH
   - SETTINGS_API_PATH
   - TALENT_MATCHING_API_PATH
+  - TIME_TRACKER_API_PATH
   - WORKFLOWS_OS_API_PATH
   - REPORTS_API_PATH
   - BILLING_API_PATH
