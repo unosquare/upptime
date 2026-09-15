@@ -87,6 +87,10 @@ sites:
   # if os-workspace#619 completes, the host is deleted and so is this monitor.
   # Keep the slug spelled `reports-client-api` if it is restored — Upptime keys
   # history/reports-client-api.yml and api/reports-client-api/ off it.
+  # The `CLIENT_API_PATH` secret was deleted from repo settings, and its leftover
+  # `secrets:` entry below was dropped on 2026-09-15. Restoring the site therefore
+  # means provisioning the secret FIRST, then the allowlist entry, then the site —
+  # three steps, in that order, for the reason the allowlist comment below gives.
   - name: "Reports · RDLC"
     slug: reports-rdlc
     url: $RDLC_API_PATH
@@ -170,7 +174,6 @@ secrets:
   - WORKFLOWS_OS_API_PATH
   - REPORTS_API_PATH
   - BILLING_API_PATH
-  - CLIENT_API_PATH
   - RDLC_API_PATH
   - FUNCTION_CORE_API_PATH
   - WORKFLOW_FUNCTIONS_API_PATH
