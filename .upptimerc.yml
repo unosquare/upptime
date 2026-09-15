@@ -121,21 +121,9 @@ sites:
     slug: web-billing
     url: https://billing.unosquare.com
     tags: [web]
-  - name: "Web · Assignment"
-    slug: web-assignment
-    url: https://assignment.unosquare.com
-    tags: [web]
-  - name: "Web · Reports"
-    slug: web-reports
-    url: https://reports.unosquare.com
-    tags: [web]
   - name: "Web · Core Dashboard"
     slug: web-core-dashboard
     url: https://core.unosquare.com
-    tags: [web]
-  - name: "Web · Timesheet"
-    slug: web-timesheet
-    url: https://timesheet.unosquare.com
     tags: [web]
   - name: "Web · NomiCore (payroll)"
     slug: web-nomicore
