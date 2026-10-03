@@ -1,7 +1,7 @@
 url: $NOTIFICATIONS_FN_API_PATH
 status: up
 code: 200
-responseTime: 184
-lastUpdated: 2026-10-02T23:14:44.247Z
+responseTime: 281
+lastUpdated: 2026-10-03T23:53:21.503Z
 startTime: 2026-07-30T21:19:24.253Z
 generator: Upptime <https://github.com/upptime/upptime>
