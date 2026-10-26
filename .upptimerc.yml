@@ -1,0 +1,210 @@
+owner: unosquare
+repo: upptime
+
+# Probe targets are GitHub secrets because this repo is public (that is what buys
+# free Actions minutes for the probes and free Pages for the status page). The
+# auditable counterpart — which host each secret is supposed to point at, and why
+# each prod host is or is not monitored — lives in the PRIVATE os-workspace repo at
+# docs/uptime-monitoring.md, and the sites below are generated from it.
+#
+# The `slug` on every site is load-bearing: Upptime keys history/<slug>.yml,
+# api/<slug>/ and the downtime-issue label off it, so pinning it is what lets a
+# site be renamed for readability without discarding its uptime history.
+#
+# `tags` become labels on the downtime issue (Upptime does NOT group by them on the
+# status page — the default status-page package ignores the field — which is why the
+# tier is also spelled out in each display name).
+
+sites:
+  # ---- api -----------------------------------------------------------------
+  # Core OS services. Probe /health; every modern domain exposes it.
+  - name: "API · Core (legacy)"
+    slug: core
+    url: $CORE_API_PATH
+    tags: [api]
+  - name: "API · CoreGraph"
+    slug: graph
+    url: $GRAPH_API_PATH
+    tags: [api]
+  - name: "API · ActionItems"
+    slug: api-action-items
+    url: $ACTION_ITEMS_API_PATH
+    tags: [api]
+  - name: "API · ATS"
+    slug: api-ats
+    url: $ATS_API_PATH
+    tags: [api]
+  - name: "API · AuditTrail"
+    slug: api-audit-trail
+    url: $AUDIT_TRAIL_API_PATH
+    tags: [api]
+  - name: "API · Celebrations"
+    slug: api-celebrations
+    url: $CELEBRATIONS_API_PATH
+    tags: [api]
+  - name: "API · Discussions"
+    slug: api-discussions
+    url: $DISCUSSIONS_API_PATH
+    tags: [api]
+  - name: "API · Identity"
+    slug: identity-unosquare-os
+    url: $IDENTITY_OS_API_PATH
+    tags: [api]
+  - name: "API · OneOnOnes"
+    slug: api-one-on-ones
+    url: $ONE_ON_ONES_API_PATH
+    tags: [api]
+  - name: "API · Settings"
+    slug: api-settings
+    url: $SETTINGS_API_PATH
+    tags: [api]
+  - name: "API · TalentMatching"
+    slug: talent-matching-unosquare-os
+    url: $TALENT_MATCHING_API_PATH
+    tags: [api]
+  - name: "API · TimeTracker"
+    slug: api-time-tracker
+    url: $TIME_TRACKER_API_PATH
+    tags: [api]
+  - name: "API · Workflows"
+    slug: workflows-unosquare-os
+    url: $WORKFLOWS_OS_API_PATH
+    tags: [api]
+  # ---- reports -------------------------------------------------------------
+  # Absorbed reports/billing hosts (Core.Reports subtree).
+  - name: "Reports · Exec API"
+    slug: workflow
+    url: $REPORTS_API_PATH
+    tags: [reports]
+  - name: "Reports · Billing API"
+    slug: billing
+    url: $BILLING_API_PATH
+    tags: [reports]
+  # "Reports · Client API" (slug reports-client-api, $CLIENT_API_PATH -> the
+  # `clientcore` App Service) was removed on 2026-08-11. The host was deliberately
+  # STOPPED that day as os-workspace#619 Stage 3, so /health answers 403 "Web App -
+  # Unavailable" and the probe would report a permanent, already-explained outage.
+  # This is NOT the functionbilling failure mode: that host was unmonitored while
+  # nobody knew it was dead. Here the stop is intentional, dated, and recorded in
+  # os-workspace docs/uptime-monitoring.md next to the decision date.
+  # Do not re-add: if `clientcore` is ever restarted the entry comes back with it;
+  # if os-workspace#619 completes, the host is deleted and so is this monitor.
+  # Keep the slug spelled `reports-client-api` if it is restored — Upptime keys
+  # history/reports-client-api.yml and api/reports-client-api/ off it.
+  # The `CLIENT_API_PATH` secret was deleted from repo settings, and its leftover
+  # `secrets:` entry below was dropped on 2026-09-15. Restoring the site therefore
+  # means provisioning the secret FIRST, then the allowlist entry, then the site —
+  # three steps, in that order, for the reason the allowlist comment below gives.
+  - name: "Reports · RDLC"
+    slug: reports-rdlc
+    url: $RDLC_API_PATH
+    tags: [reports]
+  - name: "Reports · FunctionCore (Xero ETL)"
+    slug: function-core
+    url: $FUNCTION_CORE_API_PATH
+    tags: [reports]
+  # ---- worker --------------------------------------------------------------
+  # Unattended background hosts. Nothing here is driven by a user session,
+  # which is why the schedule below must stay 24/7. A root probe proves the
+  # host is up, not that its timers run — that is the App Insights report's job.
+  - name: "Worker · Workflow.Functions"
+    slug: workflow-functions
+    url: $WORKFLOW_FUNCTIONS_API_PATH
+    tags: [worker]
+  - name: "Worker · Notifications.Functions"
+    slug: worker-notifications-fn
+    url: $NOTIFICATIONS_FN_API_PATH
+    tags: [worker]
+  - name: "Worker · TME.Functions"
+    slug: worker-tme-fn
+    url: $TME_FN_API_PATH
+    tags: [worker]
+  # ---- web -----------------------------------------------------------------
+  # Front-ends. Public CNAMEs stay in plaintext; users type these URLs.
+  - name: "Web · OS Shell"
+    slug: web-os-shell
+    url: https://os.unosquare.com
+    tags: [web]
+  - name: "Web · Billing"
+    slug: web-billing
+    url: https://billing.unosquare.com
+    tags: [web]
+  - name: "Web · Core Dashboard"
+    slug: web-core-dashboard
+    url: https://core.unosquare.com
+    tags: [web]
+  - name: "Web · NomiCore (payroll)"
+    slug: web-nomicore
+    url: https://nomicore.unosquare.com
+    tags: [web]
+    expectedStatusCodes: [401]  # App Service Easy Auth: a non-5xx is the liveness signal, there is no /health
+  - name: "Web · Workflows Studio"
+    slug: web-workflows-studio
+    url: $WORKFLOWS_STUDIO_PATH
+    tags: [web]
+  - name: "Web · APR Survey (satellite)"
+    slug: apr-survey-satellite
+    url: https://survey.unosquare.com
+    tags: [web]
+  - name: "Web · Vacation Approvals (satellite)"
+    slug: vacation-approvals-satellite
+    url: https://vacation-approvals.unosquare.com
+    tags: [web]
+
+# Fallback owners for any downtime issue. Per-site `assignees:` would route each
+# tier to the team that owns it (Upptime merges them with this list) — worth adding
+# once the per-domain GitHub handles are confirmed; guessing them would misroute.
+assignees:
+  - jpalcala
+  - clementezazueta
+
+# Explicit secret allowlist. Without this key Upptime falls back to automatic
+# compatibility mode and inlines ~100 possible secret names into SECRETS_CONTEXT in
+# every generated workflow. Note NOTIFICATION_* must be listed: Upptime resolves
+# notification channels only through SECRETS_CONTEXT, so omitting one here silently
+# disables that channel while the secret still looks present in repo settings.
+secrets:
+  - CORE_API_PATH
+  - GRAPH_API_PATH
+  - ACTION_ITEMS_API_PATH
+  - ATS_API_PATH
+  - AUDIT_TRAIL_API_PATH
+  - CELEBRATIONS_API_PATH
+  - DISCUSSIONS_API_PATH
+  - IDENTITY_OS_API_PATH
+  - ONE_ON_ONES_API_PATH
+  - SETTINGS_API_PATH
+  - TALENT_MATCHING_API_PATH
+  - TIME_TRACKER_API_PATH
+  - WORKFLOWS_OS_API_PATH
+  - REPORTS_API_PATH
+  - BILLING_API_PATH
+  - RDLC_API_PATH
+  - FUNCTION_CORE_API_PATH
+  - WORKFLOW_FUNCTIONS_API_PATH
+  - NOTIFICATIONS_FN_API_PATH
+  - TME_FN_API_PATH
+  - WORKFLOWS_STUDIO_PATH
+  - NOTIFICATION_TEAMS
+  - NOTIFICATION_TEAMS_WEBHOOK_URL
+
+status-website:
+  publish: true
+  theme: ocean
+  faviconSvg: https://unosquare.github.io/cdn.unosquare.com/assets/icons/unicorn_icon.svg
+  favicon: https://www.unosquare.com/wp-content/uploads/2025/01/cropped-unosquare-favicon-192x192.png
+  logoUrl: https://unosquare.github.io/cdn.unosquare.com/assets/icons/unicorn_icon.svg
+  cname: status.unosquare.com # Custom domain CNAME
+  name: Unosquare
+  navbar:
+    - title: Status
+      href: /
+    - title: Report an issue
+      href: https://unosquare.atlassian.net/servicedesk/customer/portal/2/create/19
+
+workflowSchedule:
+  # 24/7. The previous `*/10 8-20 * * 1-5` left nights and weekends unmonitored,
+  # which is exactly when the unattended `worker` hosts above run unobserved.
+  # GitHub already throttles cron on a busy repo (~30-40 min effective here), and
+  # a public repo has no Actions-minute cost, so the wider window is free.
+  uptime: "*/10 * * * *"
