@@ -252,19 +252,20 @@
     "url": "$REPORTS_API_PATH",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "workflow",
-    "status": "up",
+    "status": "down",
     "uptime": "99.53%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.94%",
-    "time": 136,
-    "timeDay": 122,
-    "timeWeek": 159,
-    "timeMonth": 153,
-    "timeYear": 144,
+    "time": 211,
+    "timeDay": 8355,
+    "timeWeek": 3449,
+    "timeMonth": 1150,
+    "timeYear": 230,
     "dailyMinutesDown": {
-      "2026-05-05": 325
+      "2026-05-05": 325,
+      "2026-10-27": 0
     }
   },
   {
