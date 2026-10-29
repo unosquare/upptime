@@ -214,20 +214,20 @@
     "url": "$TIME_TRACKER_API_PATH",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "api-time-tracker",
-    "status": "down",
-    "uptime": "99.97%",
-    "uptimeDay": "99.37%",
-    "uptimeWeek": "99.91%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.97%",
-    "time": 130,
-    "timeDay": 106,
-    "timeWeek": 118,
-    "timeMonth": 123,
-    "timeYear": 130,
+    "status": "up",
+    "uptime": "99.96%",
+    "uptimeDay": "98.79%",
+    "uptimeWeek": "99.83%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.96%",
+    "time": 129,
+    "timeDay": 98,
+    "timeWeek": 114,
+    "timeMonth": 122,
+    "timeYear": 129,
     "dailyMinutesDown": {
       "2026-09-04": 18,
-      "2026-10-29": 9
+      "2026-10-29": 18
     }
   },
   {
