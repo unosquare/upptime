@@ -465,18 +465,20 @@
     "url": "$WORKFLOWS_STUDIO_PATH",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "web-workflows-studio",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 165,
-    "timeDay": 136,
-    "timeWeek": 178,
-    "timeMonth": 167,
+    "timeDay": 131,
+    "timeWeek": 172,
+    "timeMonth": 166,
     "timeYear": 165,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-11-13": 1
+    }
   },
   {
     "name": "Web · APR Survey (satellite)",
