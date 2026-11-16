@@ -138,10 +138,6 @@ sites:
     url: https://nomicore.unosquare.com
     tags: [web]
     expectedStatusCodes: [401]  # App Service Easy Auth: a non-5xx is the liveness signal, there is no /health
-  - name: "Web · Workflows Studio"
-    slug: web-workflows-studio
-    url: $WORKFLOWS_STUDIO_PATH
-    tags: [web]
   - name: "Web · APR Survey (satellite)"
     slug: apr-survey-satellite
     url: https://survey.unosquare.com
@@ -184,7 +180,6 @@ secrets:
   - WORKFLOW_FUNCTIONS_API_PATH
   - NOTIFICATIONS_FN_API_PATH
   - TME_FN_API_PATH
-  - WORKFLOWS_STUDIO_PATH
   - NOTIFICATION_TEAMS
   - NOTIFICATION_TEAMS_WEBHOOK_URL
 
