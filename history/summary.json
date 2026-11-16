@@ -461,29 +461,6 @@
     "dailyMinutesDown": {}
   },
   {
-    "name": "Web · Workflows Studio",
-    "url": "$WORKFLOWS_STUDIO_PATH",
-    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
-    "slug": "web-workflows-studio",
-    "status": "down",
-    "uptime": "97.98%",
-    "uptimeDay": "0.00%",
-    "uptimeWeek": "68.83%",
-    "uptimeMonth": "92.83%",
-    "uptimeYear": "97.98%",
-    "time": 163,
-    "timeDay": 123,
-    "timeWeek": 122,
-    "timeMonth": 151,
-    "timeYear": 163,
-    "dailyMinutesDown": {
-      "2026-11-16": 32,
-      "2026-11-15": 1440,
-      "2026-11-14": 1440,
-      "2026-11-13": 231
-    }
-  },
-  {
     "name": "Web · APR Survey (satellite)",
     "url": "https://survey.unosquare.com",
     "icon": "https://icons.duckduckgo.com/ip3/survey.unosquare.com.ico",
