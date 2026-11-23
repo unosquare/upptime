@@ -91,10 +91,6 @@ sites:
   # `secrets:` entry below was dropped on 2026-09-15. Restoring the site therefore
   # means provisioning the secret FIRST, then the allowlist entry, then the site —
   # three steps, in that order, for the reason the allowlist comment below gives.
-  - name: "Reports · RDLC"
-    slug: reports-rdlc
-    url: $RDLC_API_PATH
-    tags: [reports]
   - name: "Reports · FunctionCore (Xero ETL)"
     slug: function-core
     url: $FUNCTION_CORE_API_PATH
@@ -170,7 +166,6 @@ secrets:
   - TIME_TRACKER_API_PATH
   - REPORTS_API_PATH
   - BILLING_API_PATH
-  - RDLC_API_PATH
   - FUNCTION_CORE_API_PATH
   - WORKFLOW_FUNCTIONS_API_PATH
   - NOTIFICATIONS_FN_API_PATH
