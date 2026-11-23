@@ -1,7 +1,7 @@
 url: $TME_FN_API_PATH
-status: down
-code: 503
-responseTime: 7535
-lastUpdated: 2026-11-23T16:48:42.961Z
+status: up
+code: 200
+responseTime: 18684
+lastUpdated: 2026-11-23T17:18:38.169Z
 startTime: 2026-07-30T21:19:24.545Z
 generator: Upptime <https://github.com/upptime/upptime>
