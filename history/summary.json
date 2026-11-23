@@ -279,16 +279,18 @@
     "slug": "reports-rdlc",
     "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 141,
-    "timeDay": 211,
-    "timeWeek": 144,
+    "timeDay": 177,
+    "timeWeek": 140,
     "timeMonth": 119,
     "timeYear": 141,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-11-23": 0
+    }
   },
   {
     "name": "Reports · FunctionCore (Xero ETL)",
